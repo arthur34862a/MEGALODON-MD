@@ -16,7 +16,7 @@ module.exports = {
     SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~fAtwyJzD#eiPf9VEhrDxEOxyzyEfvN9yDODSKs2o0Qtm47eNEvKI",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MEGALODON-MD",  // Bot's display name
-    MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
+    MODE: process.env.MODE || "private",        // Bot mode: public/private/group/inbox
     // ===== OWNER & DEVELOPER SETTINGS =====
     OWNER_NUMBER: process.env.OWNER_NUMBER || "50948702213",  // Owner's WhatsApp number
     
